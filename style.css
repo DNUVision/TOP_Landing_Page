@@ -1,0 +1,171 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #1F2937; */
+}
+
+
+/*This section of the css file describes the upper and lower header classes*/
+
+.header, .upper, .lower, .footer{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.upper, .footer{
+    flex-direction: row;
+    border: black 1px solid;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-weight: 600;
+}
+
+/* This section of the css file describes the main part of the header */
+
+.lower{
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.lower-main{
+    border: 1px solid black;
+    max-width: 50%;
+    
+}
+
+.lower-main>h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.lower-main>p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.img-holder{
+    border: 3px red solid;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    
+}
+
+.img-holder p{
+    padding: 80px;
+}
+
+
+.signup{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+}
+
+
+
+/* first content section */
+.super-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+#header-content{
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cards-section{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 180px;
+    justify-content: center;
+}
+
+.card{
+    border: 3px #2e79f4 solid;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+.card-text{
+    margin: 3px;
+}
+
+.quote{
+    background-color: #E5E7EB;  
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.call-action{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    
+}
+
+span{
+    font-weight:700;
+}
+
+.btn-second{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 3px 15px;
+    margin: 20px;
+    font-weight: 700;
+}
+
