@@ -1,7 +1,6 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
 }
 
 
@@ -11,6 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    background-color: #1F2937;
 }
 
 .upper, .footer{
@@ -43,6 +43,8 @@ ul{
     display: flex;
     justify-content: center;
     color: #E5E7EB; 
+    background-color: #1F2937;
+    padding-bottom: 75px;
 }
 
 .lower{
@@ -72,7 +74,7 @@ ul{
     background-color: #3882F6;
     border-color: #3882F6;
     color: white;
-    padding: 5px 8px;
+    padding: 5px 14px;
     border-radius: 10px;
 }
 
@@ -85,52 +87,6 @@ ul{
     flex-grow: 1;
     
 }
-/*
-.lower{
-    border: 5px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    color: #E5E7EB; 
-    box-sizing: border-box;
-}
-
-.lower-main{
-    border: 1px solid black;  
-    flex-basis: 25%;  
-    padding-right: 40px;
-}
-
-.lower-main>h1{
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.lower-main>p{
-    font-size: 18px;
-
-}
-.img-holder{
-    border: 3px red solid;
-    background-color: #6d747d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.img-holder p{
-    padding: 100px;
-}
-
-
-.signup{
-    background-color: #3882F6;
-    border-color: #3882F6;
-    color: white;
-}
-
-*/
 
 /* first content section */
 .super-content{
@@ -139,10 +95,10 @@ ul{
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    padding-bottom: 80px;
 
 }
 #header-content{
-    border: 1px solid black;
     font-weight: 900;
     font-size: 36px;
     color: #1F2937;
@@ -152,13 +108,11 @@ ul{
     display: flex;
     flex-direction: row;
     padding: 5px;
-    border: 1px solid black;
 }
 
 .wrapper{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
     width: 180px;
     justify-content: center;
 }
@@ -173,19 +127,44 @@ ul{
 
 .card-text{
     margin: 3px;
+    text-align: center;
 }
 
 .quote{
     background-color: #E5E7EB;  
+    display: flex;
+    justify-content: center;
+}
+
+.container-quote{
+    display: flex;
+    flex-direction: column;
+    width: 95vh;
+    font-family: sans-serif;
+}
+
+.inspirational{
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
+
+}
+
+#inspirational{
+    margin-bottom: 0px;
+}
+
+.thor{
+    align-self: flex-end;
+    font-weight: bold;
+    padding-bottom: 40px;
 }
 
 .third-content{
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 
 
@@ -215,3 +194,7 @@ span{
     font-weight: 700;
 }
 
+.footer{
+    padding: 30px;
+    font-size: 18px;
+}
