@@ -1,14 +1,13 @@
 body{
     display: flex;
     flex-direction: column;
-    /*background-color: #1F2937; */
+    background-color: #1F2937;
 }
 
 
 /*This section of the css file describes the upper and lower header classes*/
 
 .header, .upper, .lower, .footer{
-    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -41,16 +40,14 @@ ul{
 
 .lower{
     border: 1px solid black;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
 
 .lower-main{
     border: 1px solid black;
-    max-width: 50%;
-    
+    flex-basis: 28%;    
 }
 
 .lower-main>h1{
@@ -69,7 +66,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    color: #E5E7EB;
     
 }
 
