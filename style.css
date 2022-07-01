@@ -15,7 +15,7 @@ body{
 
 .upper, .footer{
     flex-direction: row;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
@@ -38,27 +38,77 @@ ul{
 
 /* This section of the css file describes the main part of the header */
 
+.lower-container{
+    /* border: 10px solid green; */
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB; 
+}
+
 .lower{
-    border: 1px solid black;
+    /* border: 5px solid red; */
     display: flex;
     flex-direction: row;
-    justify-content: center;  
+    
 }
 
 .lower-main{
-    border: 1px solid black;
-    flex-basis: 28%;    
+    /* border: 5px solid blue; */
+    flex-basis: 50%;
 }
 
 .lower-main>h1{
-    color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
 }
 
 .lower-main>p{
     font-size: 18px;
-    color: #E5E7EB;
+    margin-bottom: 5px;
+}
+
+
+.signup{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.img-holder{
+    /*border: 3px red solid; */
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+/*
+.lower{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    color: #E5E7EB; 
+    box-sizing: border-box;
+}
+
+.lower-main{
+    border: 1px solid black;  
+    flex-basis: 25%;  
+    padding-right: 40px;
+}
+
+.lower-main>h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.lower-main>p{
+    font-size: 18px;
+
 }
 .img-holder{
     border: 3px red solid;
@@ -66,12 +116,11 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #E5E7EB;
     
 }
 
 .img-holder p{
-    padding: 80px;
+    padding: 100px;
 }
 
 
@@ -81,7 +130,7 @@ ul{
     color: white;
 }
 
-
+*/
 
 /* first content section */
 .super-content{
